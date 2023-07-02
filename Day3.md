@@ -22,14 +22,16 @@ function fun1() {
 ```
 
 3. Local Scope and Functions
+
    ```javascript
-   function myLocalScope() {
+
+ function myLocalScope() {
+
   // Only change code below this line
   var myVar;
   console.log('inside myLocalScope', myVar);
-  }
- myLocalScope();
- 
+}
+myLocalScope();
 ```
 4. Global vs. Local Scope in Functions
 
