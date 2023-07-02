@@ -27,11 +27,12 @@ function fun1() {
   // Only change code below this line
   var myVar;
   console.log('inside myLocalScope', myVar);
-}
-myLocalScope();
+  }
+ myLocalScope();
 ```
 4. Global vs. Local Scope in Functions
-```javascript
+
+  ```javascript
 function myOutfit() {
   // Only change code below this line
   var outerWear = 'sweater';
@@ -40,8 +41,9 @@ function myOutfit() {
 }
 
 myOutfit();
-```
-5.Stand in Line
+ ```
+5. Stand in Line
+
 ```javascript
 function nextInLine(arr, item) {
   // Only change code below this line
