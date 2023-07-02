@@ -29,7 +29,7 @@ function fun1() {
   console.log('inside myLocalScope', myVar);
 }
 myLocalScope();
- ```
+```
 4. Global vs. Local Scope in Functions
 ```javascript
 function myOutfit() {
