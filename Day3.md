@@ -8,7 +8,7 @@ here is my solution for the task:
  function timesFive(num){
   return num * 5;
 }
-3) Global Scope and Functions
+2) Global Scope and Functions
    here is my solution for the task:
    ```javascript
 
