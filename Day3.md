@@ -9,6 +9,7 @@ here is my solution for the task:
   return num * 5;
 }
 ```
+2. Global Scope and Functions
   ```javascript
 
    // Declare the myGlobal variable below this line
@@ -20,7 +21,39 @@ function fun1() {
 }
 ```
 
-3) Local Scope and Functions
+3. Local Scope and Functions
+   ```javascript
+   function myLocalScope() {
+  // Only change code below this line
+  var myVar;
+  console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
+ ```
+4. Global vs. Local Scope in Functions
+```javascript
+function myOutfit() {
+  // Only change code below this line
+  var outerWear = 'sweater';
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
+```
+5.Stand in Line
+```javascript
+function nextInLine(arr, item) {
+  // Only change code below this line
+  arr.push(item);
+  let removeditem = arr.shift();
+  return removeditem;
+  return item;
+  // Only change code above this line
+}
+```
+
+   
 
 
 
