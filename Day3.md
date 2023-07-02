@@ -1,8 +1,8 @@
 # What I learned from the third day tasks
 ### This Section focus on Function 
 ## Examples:
-1. Return a Value from a Function with Return
-here is my solution for the task:
+1. Return a Value from a Function with Return,
+and here is my solution for the task:
 ```javascript
 
  function timesFive(num){
