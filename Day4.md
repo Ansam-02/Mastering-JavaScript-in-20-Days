@@ -30,9 +30,14 @@
   ? names [5]
   : names[6];
  }
+```
 > Use the map Method to Extract Data from an Array
-
-
+```jacascript
+   
+ const ratings = watchList.map(movie =>({
+  title : movie['Title'],
+  rating :movie["imdbRating"]
+ }));
 
 ```
    
