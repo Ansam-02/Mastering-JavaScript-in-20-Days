@@ -5,10 +5,10 @@
    here is my solution:
    ```javascript
      function checkSign(num) {
-return (num > 0) ? 'positive'
-: (num <0) ? 'negative'
-:'zero';
-}
+      return (num > 0) ? 'positive'
+      : (num <0) ? 'negative'
+      :'zero';
+      }
 
    ```
    
