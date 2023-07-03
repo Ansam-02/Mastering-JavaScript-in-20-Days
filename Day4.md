@@ -30,6 +30,9 @@
   ? names [5]
   : names[6];
  }
+> Use the map Method to Extract Data from an Array
+
+
 
 ```
    
