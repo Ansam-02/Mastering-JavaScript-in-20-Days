@@ -40,4 +40,9 @@
  }));
 
 ```
+> Use the filter Method to Extract Data from an Array
+```javascript
+      
+ const filteredList = watchList.filter(movie => movie.imdbRating >= 8.0).map(movie => ({ title: movie["Title"], rating: movie["imdbRating"] }));
+```
    
