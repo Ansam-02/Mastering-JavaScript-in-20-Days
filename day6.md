@@ -1,4 +1,4 @@
-# Part One
+ **Part One**
  ## The DOM
 Document Object Model: The HTML DOM document object is the owner of all other objects in your web page.
 we work with different methods as getElementById, getElementsByTagName, getElementsByClassName, and querySelector..
@@ -70,3 +70,7 @@ Methods are stored in properties as function definitions.
     const isCorrect=(guess)=>{return guess=== fact.answer};
     
 ```
+## Events
+events are "things" that happen to HTML elements, When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+
+
