@@ -76,7 +76,7 @@ here's the the exercies that i solved of the Quiz project:
 ```
 ## Events
 events are "things" that happen to HTML elements, When JavaScript is used in HTML pages, JavaScript can "react" on these events.here's the the exercies that i solved:
-1. capitilize the text of the button.
+1. capitilize the text of the button 'true'.
 ```jsx
  let trueButton;
  trueButton.addEventListener('click',(event)=>{
@@ -94,4 +94,19 @@ events are "things" that happen to HTML elements, When JavaScript is used in HTM
  h1.addEvenrListener('mouseout',(event)=>{
     h1.textContect="Quiz.js";
  });
+```
+## Loop
+Loops can execute a block of code a number of times.
+* disable loop project exercies
+```jsx
+    for(let button of optionButton){
+        button.addEventListener("click",(event) =>{
+            explanation.textContent = fact.explanation;
+
+            for(let otherbutton of optionButtons){
+                disable(otherbutton);
+            }
+        })
+    }
+
 ```
