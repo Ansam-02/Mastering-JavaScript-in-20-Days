@@ -4,8 +4,12 @@ i done a simple tasks which about the basic of javascribt
 1) compound Assignment With Augmented Multiplication
      num*=2 which is the same of num = num*2
 2) Concatenating Strings with the Plus Equals Operator
+   ```javascript
      let NAME = "My Name is ";
       NAME += "Ansam";
-3) Use Bracket Notation to Find the Nth-to-Last Character in a String
+   ```
+4) Use Bracket Notation to Find the Nth-to-Last Character in a String
+   ```javascript
      const firstName = "Ansam";
      const theletter = firstName[firstName.length - 2]; //the result=a
+   ```
