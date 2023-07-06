@@ -17,33 +17,33 @@ I done a simple tasks which about the basic of javascribt and Basic Data Structu
     lastName: "Potter",
     number: "0994372684",
     likes: ["Hogwarts", "Magic", "Hagrid"],
-  },
-  {
+     },
+     {
     firstName: "Sherlock",
     lastName: "Holmes",
     number: "0487345643",
     likes: ["Intriguing Cases", "Violin"],
-  },
-  {
+     },
+        {
     firstName: "Kristian",
     lastName: "Vos",
     number: "unknown",
     likes: ["JavaScript", "Gaming", "Foxes"],
-  },
-  ];
+     },
+     ];
 
-  function lookUpProfile(name, prop) {
-  // Only change code below this line
+     function lookUpProfile(name, prop) {
+     // Only change code below this line
   
- for (let i = 0; i < contacts.length; i++) {
+       for (let i = 0; i < contacts.length; i++) {
     if (contacts[i].firstName === name) {
       if (prop in contacts[i]) {
         return contacts[i][prop];
       } else {
         return "No such property";
-      }
-    }
-  }
+         }
+       }
+     }
 
    return "No such contact";
       // Only change code above this line
