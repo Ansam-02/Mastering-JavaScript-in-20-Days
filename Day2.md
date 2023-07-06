@@ -4,6 +4,7 @@ I done a simple tasks which about the basic of javascribt and Basic Data Structu
 #### Expressions
 1) Profile Lookup
    A lookUpProfile function that takes firstName and a property (prop) as arguments has been pre-written for you.
+   ```javascript
    const contacts = [
   {
     firstName: "Akira",
@@ -49,6 +50,7 @@ for (let i = 0; i < contacts.length; i++) {
 }
 
 lookUpProfile("Akira", "likes");
+```
 #### Arrays
 2) Copy Array Items Using slice()
    let fruits = ['apple', 'banana', 'grips', 'melon', 'peach'];
