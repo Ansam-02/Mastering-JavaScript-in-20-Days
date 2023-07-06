@@ -2,6 +2,7 @@
  ## The DOM
 Document Object Model: The HTML DOM document object is the owner of all other objects in your web page.
 we work with different methods as getElementById, getElementsByTagName, getElementsByClassName, and querySelector..
+here's the the exercies that i solved:
 ```javascript
   document.querySelector("#p1-name").textContect
 ```
@@ -16,6 +17,7 @@ we work with different methods as getElementById, getElementsByTagName, getEleme
 
 ## Strings
 A JavaScript string is zero or more characters written inside quotes.
+here's the the exercies that i solved:
 ```javascript
   document.querySelector("#p1-name").append(" Ansam ")
 ```
@@ -33,6 +35,7 @@ An array is a special variable, which can hold more than one value
 Objects can also have methods.
 Methods are actions that can be performed on objects.
 Methods are stored in properties as function definitions.
+here's the the exercies that i solved:
 ```javascript
   const ansam ={
     name:"Ansam",
@@ -42,6 +45,7 @@ Methods are stored in properties as function definitions.
    };
 ```
 #### Quiz Project
+here's the the exercies that i solved of the Quiz project:
 ```javascript
     const statement = document.getElementById('statment');
     // optionButtons should be all the elements within the "options" div
