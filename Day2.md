@@ -68,6 +68,6 @@ I done a simple tasks which about the basic of javascribt and Basic Data Structu
   let sentence = ['My','Full','Name','is',...fullname];
   return sentence;
    }
-```
+ ```
 
 console.log(spread());
