@@ -1,4 +1,5 @@
  **Part One**
+day5 I start the first course JavaScript from First Steps to Proffessional
  ## The DOM
 Document Object Model: The HTML DOM document object is the owner of all other objects in your web page.
 we work with different methods as getElementById, getElementsByTagName, getElementsByClassName, and querySelector..
