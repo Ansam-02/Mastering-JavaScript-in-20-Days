@@ -2,8 +2,10 @@
 i done a simple tasks which about the basic of javascribt 
 ## Example:
 1) compound Assignment With Augmented Multiplication
+
      num*=2 which is the same of num = num*2
-2) Concatenating Strings with the Plus Equals Operator
+   
+3) Concatenating Strings with the Plus Equals Operator
    ```javascript
      let NAME = "My Name is ";
       NAME += "Ansam";
