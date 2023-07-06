@@ -1,4 +1,4 @@
-**Part two**
+
 ## Map & Filter 
 methods let us process all the items in an array
 map: applies some kind of operations on all the array's elements.
