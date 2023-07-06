@@ -57,9 +57,8 @@ I done a simple tasks which about the basic of javascribt and Basic Data Structu
 2) Copy Array Items Using slice():
 
  ```javascript
-
-         let fruits = ['apple', 'banana', 'grips', 'melon', 'peach'];
-          let myfavfruits = fruits.slice(1, 3);
+   let fruits = ['apple', 'banana', 'grips', 'melon', 'peach'];
+   let myfavfruits = fruits.slice(1, 3);
  ```
 
 
