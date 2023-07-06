@@ -76,11 +76,22 @@ here's the the exercies that i solved of the Quiz project:
 ```
 ## Events
 events are "things" that happen to HTML elements, When JavaScript is used in HTML pages, JavaScript can "react" on these events.here's the the exercies that i solved:
+1. capitilize the text of the button.
 ```jsx
  let trueButton;
- trueButton.addEventListener('click',()=>{
+ trueButton.addEventListener('click',(event)=>{
  trueButton.textContext = trueButton.textContext.toUpperCase();
  });
 ```
-
-
+2. change h1 to 'hovering' when the mouse moves into the element
+```jsx
+ h1.addEvenrListener('mouseover',(event)=>{
+    h1.textContect="hovering";
+ });
+```
+3. change h1 to 'Quiz.js' when the mouse moves out the element
+```jsx
+ h1.addEvenrListener('mouseout',(event)=>{
+    h1.textContect="Quiz.js";
+ });
+```
