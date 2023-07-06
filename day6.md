@@ -75,6 +75,12 @@ here's the the exercies that i solved of the Quiz project:
     
 ```
 ## Events
-events are "things" that happen to HTML elements, When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+events are "things" that happen to HTML elements, When JavaScript is used in HTML pages, JavaScript can "react" on these events.here's the the exercies that i solved:
+```jsx
+ let trueButton;
+ trueButton.addEventListener('click',()=>{
+ trueButton.textContext = trueButton.textContext.toUpperCase();
+ });
+```
 
 
