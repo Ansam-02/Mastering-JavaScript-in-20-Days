@@ -1,7 +1,9 @@
+#### Arrays
 # What I learned from the first day tasks
 I done a simple tasks which about the basic of javascribt and Basic Data Structure
 ## Example:
 #### Expressions
+
 1) Profile Lookup
    A lookUpProfile function that takes firstName and a property (prop) as arguments has been pre-written for you.
    ```javascript
@@ -51,11 +53,11 @@ I done a simple tasks which about the basic of javascribt and Basic Data Structu
 
    lookUpProfile("Akira", "likes");
 ```
->Arrays
+#### Arrays
 2) Copy Array Items Using slice()
    let fruits = ['apple', 'banana', 'grips', 'melon', 'peach'];
     let myfavfruits = fruits.slice(1, 3);
->Object
+>Obje
 3) Combine Arrays with the Spread Operator
    function spread() {
   let fullname= ['Ansam', 'Jadayel'];
