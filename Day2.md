@@ -1,74 +1,66 @@
-#### Arrays
-# What I learned from the first day tasks
-I done a simple tasks which about the basic of javascribt and Basic Data Structure
-## Example:
-#### Expressions
+# Day 1: Expressions, Arrays and Objects
+This file is about fundamental data structures in programming. Arrays allow us to store and access multiple values of the same type, while objects enable us to group related data and functionality together. Expressions, on the other hand, are combinations of values, variables, and operators that evaluate to a result. They are the building blocks of logic and computation in programming languages. Understanding these concepts is crucial for effectively manipulating data and performing complex operations in programming.
 
-1) Profile Lookup
-   A lookUpProfile function that takes firstName and a property (prop) as arguments has been pre-written for you.
-   ```javascript
-    const contacts = [
-    {
-    firstName: "Akira",
-    lastName: "Laine",
-    number: "0543236543",
-    likes: ["Pizza", "Coding", "Brownie Points"],
-    },
-   {
-    firstName: "Harry",
-    lastName: "Potter",
-    number: "0994372684",
-    likes: ["Hogwarts", "Magic", "Hagrid"],
-     },
-     {
-    firstName: "Sherlock",
-    lastName: "Holmes",
-    number: "0487345643",
-    likes: ["Intriguing Cases", "Violin"],
-     },
-        {
-    firstName: "Kristian",
-    lastName: "Vos",
-    number: "unknown",
-    likes: ["JavaScript", "Gaming", "Foxes"],
-     },
-     ];
+## Lesson Summary:
+In this lesson, we explored the Basic JavaScript and Data Structure. Here are the key points covered:
 
+* We have an array of objects representing different people in our contacts lists.
+*  The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end
+* Combine Arrays with the Spread Operator: create a new array and then spread the values of array1 followed by array2 in it.
+   
+## Coding Examples
+```jsx
+     //Example 1: Copy Array Items Using slice()
+     let weatherConditions = ['rain', 'snow', 'sleet', 'hail', 'clear'];
+      let todaysWeather = weatherConditions.slice(1, 3);
+
+     //Example 2: Combine Arrays with the Spread Operator
+      let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];
+      let thatArray = ['basil', 'cilantro', ...thisArray, 'coriander'];
+     
+```
+## Coding Exercies
+  **My Solution**   
+
+[Profile Lookup](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup)
+
+```jsx
+      //Example 1: Profile lookup
      function lookUpProfile(name, prop) {
-     // Only change code below this line
-  
-       for (let i = 0; i < contacts.length; i++) {
-    if (contacts[i].firstName === name) {
-      if (prop in contacts[i]) {
-        return contacts[i][prop];
+  for (let x = 0; x < contacts.length; x++) {
+    if (contacts[x].firstName === name) {
+      if (contacts[x].hasOwnProperty(prop)) {
+        return contacts[x][prop];
       } else {
         return "No such property";
-         }
        }
      }
-
-   return "No such contact";
-      // Only change code above this line
+   }
+  return "No such contact";
+ }
+```
+[Copy Array Items Using slice](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice)
+```jsx
+       //Example 2: Copy Array Items Using slice
+          function forecast(arr) {
+     // change code below this line
+     return arr.slice(2, 4);
      }
 
-   lookUpProfile("Akira", "likes");
+   // do not change code below this line
+      console.log(
+     forecast(["cold", "rainy", "warm", "sunny", "cool", "thunderstorms"])
+   );
 ```
+[Combine Arrays with the Spread Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/combine-arrays-with-the-spread-operator)
+```jsx
+      //Example 3: Combine Arrays with the Spread Operator
+     function spreadOut() {
+     let fragment = ["to", "code"];
+     let sentence = ["learning", ...fragment, "is", "fun"]; // change this line
+     return sentence;
+      }
 
-2) Copy Array Items Using slice():
-
- ```javascript
-   let fruits = ['apple', 'banana', 'grips', 'melon', 'peach'];
-   let myfavfruits = fruits.slice(1, 3);
- ```
-
-
-3) Combine Arrays with the Spread Operator
- ```javascript
-    function spread() {
-  let fullname= ['Ansam', 'Jadayel'];
-  let sentence = ['My','Full','Name','is',...fullname];
-  return sentence;
-   }
- ```
-
-console.log(spread());
+      // do not change code below this line
+   console.log(spreadOut());
+```
