@@ -16,6 +16,8 @@ In this lesson, we explored the Basic JavaScript. Here are the key points covere
     : (a > b) ? "a is greater" 
     : "b is greater";
          }
+
+
      //Example 2: Golf Code
      let ourStr = "I come first. ";
      ourStr += "I come second.";
@@ -31,7 +33,7 @@ In this lesson, we explored the Basic JavaScript. Here are the key points covere
          console.log(names);
 
 
-          //Example 4: Use the filter Method to Extract Data from an Array
+        //Example 4: Use the filter Method to Extract Data from an Array
                const users = [
            { name: 'John', age: 34 },
            { name: 'Amy', age: 20 },
