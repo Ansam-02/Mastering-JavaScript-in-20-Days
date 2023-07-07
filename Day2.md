@@ -1,4 +1,4 @@
-# Day 1: Expressions, Arrays and Objects
+# Day 2: Expressions, Arrays and Objects
 This file is about fundamental data structures in programming. Arrays allow us to store and access multiple values of the same type, while objects enable us to group related data and functionality together. Expressions, on the other hand, are combinations of values, variables, and operators that evaluate to a result. They are the building blocks of logic and computation in programming languages. Understanding these concepts is crucial for effectively manipulating data and performing complex operations in programming.
 
 ## Lesson Summary:
