@@ -29,9 +29,11 @@ In this challenge, we will improve our JavaScript skills by working with hands-o
 - [Third Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/combine-arrays-with-the-spread-operator)
 
 #### Day3-Challenges
-- Seventh Challenge
-- Eighth Challenge
-- Ninth Challenge
+- [first challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
+- [second challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)
+- [third challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions)
+- [fourth challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-vs--local-scope-in-functions)
+- [fifth challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/stand-in-line)
 
 #### Day4-Challenges
 - [first Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-multiple-conditional-ternary-operators)
@@ -41,6 +43,10 @@ In this challenge, we will improve our JavaScript skills by working with hands-o
 
 #### Day5-Challenges
 - [Build Rick & Morty](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week1-day3-task/task.md)
+  
+#### Day6-Challenges
+
+#### Day7-Challenges
 
 
 
