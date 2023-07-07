@@ -17,6 +17,8 @@ In this lesson, we explored the Functions in Javascript . Here are the key point
      return num + 3;
     }
      const answer = plusThree(5);
+
+
      //Example 2: Local Scope and Functions
      function myTest() {
       const loc = "foo";
@@ -24,6 +26,8 @@ In this lesson, we explored the Functions in Javascript . Here are the key point
       }
       myTest();
         console.log(loc);
+
+
      //Example 3: Global vs. Local Scope in Functions
       const someVar = "Hat";
       function myFun() {
