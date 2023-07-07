@@ -21,7 +21,7 @@ In this lesson, we explored the Basic JavaScript. Here are the key points covere
      const thirdToLastLetter = firstName[firstName.length - 3];
 ```
 ## Coding Exercies
-**My Solution**
+ > **My Solution**
 [compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
 
 ```jsx
