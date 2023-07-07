@@ -4,19 +4,9 @@ This README file summarizes the JavaScript lesson on Basic Javascript.These Cons
 ## Lesson Summary:
 In this lesson, we explored the Basic JavaScript. Here are the key points covered:
 * compound Assignment With Augmented Multiplication
-
-     num*=2 which is the same of num = num*2
+* Concatenating Strings with the Plus Equals Operator
+* Use Bracket Notation to Find the Nth-to-Last Character in a String
    
- Concatenating Strings with the Plus Equals Operator
-   ```javascript
-     let NAME = "My Name is ";
-      NAME += "Ansam";
-   ```
-4) Use Bracket Notation to Find the Nth-to-Last Character in a String
-   ```javascript
-     const firstName = "Ansam";
-     const theletter = firstName[firstName.length - 2]; //the result=a
-   ```
 ## Coding Examples
 ```jsx
      //Example 1: compound Assignment
@@ -31,21 +21,22 @@ In this lesson, we explored the Basic JavaScript. Here are the key points covere
      const thirdToLastLetter = firstName[firstName.length - 3];
 ```
 ## Coding Exercies
-[https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication]
 **My Solution**
+[compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
+
 ```jsx
       //Example 1: compound Assignment
      var c = 2;
      c *= 3; // Now, 'c' is equal to 6
 ```
-[https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator]
+[Concatenating Strings with the Plus Equals Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)
 ```jsx
        //Example 2: Concatenating Strings '+='
           let str = "Hello ";
      str += "coding"; // Now the string reads "Hello coding"
      str += "camper!"; // And now the string reads "Hello codingcamper!"
 ```
-[https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string]
+[Use Bracket Notation to Find the Nth-to-Last Character](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)
 ```jsx
       //Example 3: Use Bracket Notation to Find the Nth-to-Last Character in a String
      var str = "Programming";
