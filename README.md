@@ -32,15 +32,16 @@ In this challenge, we will improve our JavaScript skills by working with hands-o
 - Seventh Challenge
 - Eighth Challenge
 - Ninth Challenge
-#### Day4-Challenges
-- Tenth Challenge
-- Eleventh Challenge
-#### Day5-Challenges
 
-### Daily Learning Process
-1. Watch 90 minutes of the assigned courses listed above.
-2. Solve all the JavaScript coding challenges provided by the GSG team.
-3. Summarize your daily learning and document your challenge solutions on a separate readme page.
-4. Repeat the process for the next 20 days, gradually advancing your JavaScript skills.
+#### Day4-Challenges
+- [first Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-multiple-conditional-ternary-operators)
+- [second Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/golf-code)
+- [third challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-map-method-to-extract-data-from-an-array)
+- [fourth challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-filter-method-to-extract-data-from-an-array)
+
+#### Day5-Challenges
+- [Build Rick & Morty](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week1-day3-task/task.md)
+
+
 
 
