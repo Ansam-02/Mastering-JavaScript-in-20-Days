@@ -1,6 +1,7 @@
-![image](https://github.com/Ansam-02/Mastering-JavaScript-in-20-Days/assets/137777479/86608f6a-aae0-4772-8e67-9bd70c928fb3)# Day 5: Rick & Morty
-Create a web page that fetches data from the Rick and Morty API, and displays a list of characters.
 
+# Day 5: Rick & Morty
+Create a web page that fetches data from the Rick and Morty API, and displays a list of characters.
+> ![image](https://github.com/Ansam-02/Mastering-JavaScript-in-20-Days/assets/137777479/86608f6a-aae0-4772-8e67-9bd70c928fb3)
 ## html Code
  ```html
   <!DOCTYPE html>
