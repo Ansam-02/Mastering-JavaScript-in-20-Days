@@ -1,7 +1,9 @@
-# What I learned from the first day tasks
-i done a simple tasks which about the basic of javascribt 
-## Example:
-1) compound Assignment With Augmented Multiplication
+# Day 1: Introduction to DOM & Data Types
+This README file summarizes the JavaScript lesson on Basic Javascript.These Consepts are important in programming for efficient code, string manipulation, and accessing specific characters in a string respectively.
+
+## Lesson Summary:
+In this lesson, we explored the Basic JavaScript. Here are the key points covered:
+* compound Assignment With Augmented Multiplication
 
      num*=2 which is the same of num = num*2
    
