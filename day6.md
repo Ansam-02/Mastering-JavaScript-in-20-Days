@@ -1,8 +1,18 @@
 # Day 6 : Introduction to Map,Filter ,Promises ,API ,and Destructuring Data 
-   Map, Filter, Promises, and Destructuring are essential concepts in JavaScript. `Map` is a function that takes an array and applies a transformation to each element, returning a new array with the transformed values. `Filter`, on the other hand, creates a new array by selectively including elements from an existing array based on a specified condition. `Promises` are objects used to handle asynchronous operations, allowing us to manage the completion or failure of tasks.`API` are constructs made available in programming languages to allow developers to create complex functionality more easily Finally, `Destructuring `provides a concise syntax for extracting values from objects or arrays, making it easier to access and work with specific elements of complex data structures.
+  It includes Topicof  `Map`, `Filter`, `Promises`, and `Destructuring` are essential concepts in JavaScript.   , returning a new array with the transformed values.
+
+  
+# Lesson Summary
+- setTimeout() method sets a timer which executes a function or specified piece of code once the timer expires.
+- Map is a function that takes an array and applies a transformation to each element.
+- Filter ceates a new array by selectively including elements from an existing array based on a specified condition.
+- Promises are objects used to handle asynchronous operations, allowing us to manage the completion or failure of tasks.
+- API are constructs made available in programming languages to allow developers to create complex functionality more easily Finally.
+- Destructuring provides a concise syntax for extracting values from objects or arrays, making it easier to access and work with specific elements of complex data structures.
+
 
 ```jsx
-      example1: create a new array with only the names of the girls
+      example1 create a new array with only the names of the girls
 
       const spices = [
     {name: "Emma", nickname: "Baby"},
@@ -14,28 +24,19 @@
 
     const names = spices.map(s=> spices.name);
 
-       //example2: create a new array endINY with the girls whose nicknames end with 'y'
+     //example2 create a new array endINY with the girls whose nicknames end with 'y'
 
     const endINY = spices.filter(s=>s.nickname[s.nicknames.length-1 ]=== 'y');
+
+       //Example3 on setTimeout():
+            setTimeout(() => {
+            console.log("Delayed for 1 second.");
+              }, "1000");
 ```
-## setTimeout()
-The global setTimeout() method sets a timer which executes a function or specified piece of code once the timer expires.
-```jsx
-      setTimeout(() => {
-   console.log("Delayed for 1 second.");
- }, "1000");
-```
+
 ## APIs & fetch
 **URLS** the way that we got data from the Internet
 
-## Promises
-The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.      A Promise is in one of these states:
-
-- pending: initial state, neither fulfilled nor rejected.      
-- fulfilled: meaning that the operation was completed successfully.      
-- rejected: meaning that the operation failed.      
-## Destructuring Data
-is a fancy way that declaring a multiple variables at once, By extracting values from an object with thier property names.
 * destructuring Execrcies :
 ```jsx
               // TODO 2
@@ -51,4 +52,9 @@ is a fancy way that declaring a multiple variables at once, By extracting values
     }
 ```
 ### Fetching Doggos
+### notes for me
+- The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.      A Promise is in one of these states:
+       `pending`: initial state, neither fulfilled nor rejected.      
+       `fulfilled`: meaning that the operation was completed successfully.      
+       `rejected`: meaning that the operation failed.    
 ### Doggos Project [Doggos](file:///C:/Users/PALpro/Downloads/Doggo%20Fetch.html"Doggos")
