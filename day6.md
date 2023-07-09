@@ -1,10 +1,9 @@
+# Day 6 : Introduction to Map,Filter ,Promises ,API ,and Destructuring Data 
+   Map, Filter, Promises, and Destructuring are essential concepts in JavaScript. `Map` is a function that takes an array and applies a transformation to each element, returning a new array with the transformed values. `Filter`, on the other hand, creates a new array by selectively including elements from an existing array based on a specified condition. `Promises` are objects used to handle asynchronous operations, allowing us to manage the completion or failure of tasks.`API` are constructs made available in programming languages to allow developers to create complex functionality more easily Finally, `Destructuring `provides a concise syntax for extracting values from objects or arrays, making it easier to access and work with specific elements of complex data structures.
 
-## Map & Filter 
-methods let us process all the items in an array
-map: applies some kind of operations on all the array's elements.
-filter: filter out the ingredients i dont want from the array.
-1. create a new array with only the names of the girls
 ```jsx
+      example1: create a new array with only the names of the girls
+
       const spices = [
     {name: "Emma", nickname: "Baby"},
     {name: "Geri", nickname: "Ginger"},
@@ -14,9 +13,9 @@ filter: filter out the ingredients i dont want from the array.
             ];
 
     const names = spices.map(s=> spices.name);
-```
-2. create a new array endINY with the girls whose nicknames end with 'y'
-```jsx
+
+       //example2: create a new array endINY with the girls whose nicknames end with 'y'
+
     const endINY = spices.filter(s=>s.nickname[s.nicknames.length-1 ]=== 'y');
 ```
 ## setTimeout()
