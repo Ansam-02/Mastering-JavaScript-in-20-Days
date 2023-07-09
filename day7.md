@@ -15,7 +15,7 @@
 - The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
 - JavaScript Frameworks provide pre-written code and tools, making the development process faster and easier than Vanilla JavaScript.
 -  React provides a virtual DOM that allows for faster updates and easier manipulation of the UI.
--  
+  
 
 ## Coding Example ✨
 ```jsx
