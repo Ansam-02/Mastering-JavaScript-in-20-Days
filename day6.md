@@ -50,25 +50,6 @@
 ```
 
 
-* destructuring Execrcies :
-```jsx
-                      // TODO 2
-    // Given a URL such as "https://images.dog.ceo/breeds/poodle-standard/n02113799_2280.jpg" => 
-    "standard poodle"
-    //  "https://images.dog.ceo/breeds/beagle/n02eteb35634.jpg" => "beagle"
-    // return the breed name string as formatted in the breed list, e.g. "standard poodle"
-    function getBreedFromURL(url) {
-        // The string method .split(char) may come in handy
-        // Try to use destructuring as much as you can
-         let urlParts = url.split("/");
-        let splitter = url[4];
-    } 
-```
-### notes for me
-- The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.A Promise is in one of these states:
-       `pending`: initial state, neither fulfilled nor rejected.      
-       `fulfilled`: meaning that the operation was completed successfully.      
-       `rejected`: meaning that the operation failed.
 
 # Coding Exercies for the Topics
 1. `Map exercies`
@@ -110,5 +91,10 @@
 
 ```
   
-```
+
+**notes for me**
+- The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.A Promise is in one of these states:
+       `pending`: initial state, neither fulfilled nor rejected.      
+       `fulfilled`: meaning that the operation was completed successfully.      
+       `rejected`: meaning that the operation failed.
 ### Doggos Project [Doggos](file:///C:/Users/PALpro/Downloads/Doggo%20Fetch.html"Doggos")
