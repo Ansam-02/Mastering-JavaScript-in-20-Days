@@ -1,6 +1,6 @@
 
 # Day 7: JavaScript: Modules, Debugging, Error Handling and More
- Its include `Modules` which allow you to break up your code into separate files. This makes it easier to maintain a code-base. and `Debugging`  is the process of finding and fixing errors or bugs in the source code of any software.`Error-handling` mechanism to catch runtime errors using try-catch-finally block,
+ Its include `Modules` which allow you to break up your code into separate files. This makes it easier to maintain a code-base. and `Debugging`  is the process of finding and fixing errors or bugs in the source code of any software.`Error-handling` mechanism to catch runtime errors using try-catch-finally block.
 
 
 
