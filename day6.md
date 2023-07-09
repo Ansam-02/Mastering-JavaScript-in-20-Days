@@ -76,8 +76,8 @@
     // At this point, "promiseA" is already settled.
     promiseA.then((val) => console.log("asynchronous logging has val:", val));
     console.log("immediate logging");
-
-4.`Destruturing Date`
+```
+4. `Destruturing Date`
 ```jsx
       let a, b, rest;
     [a, b] = [10, 20];
