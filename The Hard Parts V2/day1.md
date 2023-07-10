@@ -7,15 +7,15 @@ This file summarizes the JavaScript lesson on Basic Javascript.These Consepts ar
 
 ## Lesson Summary:
 In this lesson, we explored the hard part of JavaScript. Here are the key points covered:
-*Execution Context: there's two part to executing code (thread of execution, Memory).
+
+* Execution Context: there's two part to executing code (thread of execution, Memory).
 * Higher-order functions: Takes in a function or passes out a function.
-*  Map, filter, reduce - the most readable way to write code to work with data.
-*  
+* Map, filter, reduce - the most readable way to write code to work with data.  
 
    
 ## Coding Examples
 ```jsx
-     //Example 1: JavaScript principles
+     //Example 1: Functions & Callbacks
      const num = 3;
   function multiplyBy2 (inputNumber){
   const result = inputNumber*2;
@@ -65,8 +65,34 @@ In this lesson, we explored the hard part of JavaScript. Here are the key points
 ```
 [Question 1 & 2:](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day1-tasks/tasks.md)
 ```jsx
-      //Example 3: Use Bracket Notation to Find the Nth-to-Last Character in a String
-     var str = "Programming";
-     var secondToLastChar = str[str.length - 2]; // This is 'i'
+     //Example 1: Functions & Callback
+         const array = [1, 2, 3, 4, 5];
+
+      function asyncMultiplyByTwo(value) {
+     return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(value * 2);
+       }, 1000);
+     });
+   }
+
+   mapAsync(array, asyncMultiplyByTwo)
+     .then((result) => {
+       console.log(result); // [2, 4, 6, 8, 10]
+     })
+  .catch((error) => {
+    console.error(error);
+    });
+
+    //Example 2 : Call Stack and Recursion
+      const sumRange=(_start,_end)=>{
+    if(_end>_start){
+    return 0;
+     }else{
+    return _start + sumRange(_start +1 , _end);
+    }
+   }
+
+
 ```
 
