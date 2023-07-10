@@ -83,9 +83,8 @@ In this lesson, we explored the hard part of JavaScript. Here are the key points
   .catch((error) => {
     console.error(error);
     });
-
-
-
+```
+```jsx
     //Example 2 : Call Stack and Recursion
       const sumRange=(_start,_end)=>{
     if(_end>_start){
