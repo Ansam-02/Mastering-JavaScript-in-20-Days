@@ -30,7 +30,7 @@ talking about the promises and the asynchronous functions with some exercises.
 
 #### My Solution
 
-1. ### [Exercise 1](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day3-tasks/tasks.md)
+ ### [Exercise 1](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day3-tasks/tasks.md)
 
 ```javascript
   const executeInSequenceWithCBs = (tasks, callback) => {
@@ -57,7 +57,7 @@ talking about the promises and the asynchronous functions with some exercises.
   });
 ```
 
-2. ### [Exercise 2](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day3-tasks/tasks.md)
+ ### [Exercise 2](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day3-tasks/tasks.md)
 
 ```javascript
 const executeInParallelWithPromises = (apis) => {
@@ -81,7 +81,7 @@ executeInParallelWithPromises(apis)
   });
 ```
 
-3. ### [Exercise 3](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day3-tasks/tasks.md)
+ ### [Exercise 3](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day3-tasks/tasks.md)
 
 ```javascript
 
