@@ -36,7 +36,7 @@ In this lesson, we explored the hard part of JavaScript. Here are the key points
 ## Coding Exercies
   **My Solution**   
 
-[Question 1](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day1-tasks/tasks.md)
+## [Question 1](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day1-tasks/tasks.md)
 
 ```jsx
       function convertStringToNumber(input) {
@@ -44,7 +44,7 @@ In this lesson, we explored the hard part of JavaScript. Here are the key points
       }
       console.log(convertStringToNumber("10"));
 ```
-[Question 2](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day1-tasks/tasks.md)
+## [Question 2](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day1-tasks/tasks.md)
 
 ```jsx
     const checkNaN = (value) => {
@@ -53,7 +53,7 @@ In this lesson, we explored the hard part of JavaScript. Here are the key points
 
    console.log(checkNaN("4")); //returns false
 ```
-[Question 3](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day1-tasks/tasks.md)
+## [Question 3](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day1-tasks/tasks.md)
 
 ```jsx
     function isEmptyValue(value) {
@@ -64,7 +64,7 @@ In this lesson, we explored the hard part of JavaScript. Here are the key points
 
 
 ```
-[Question 4](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day1-tasks/tasks.md)
+## [Question 4](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day1-tasks/tasks.md)
 
 ```jsx
     function compareObjects(input1, input2) {
@@ -78,7 +78,7 @@ In this lesson, we explored the hard part of JavaScript. Here are the key points
 
 ```
 
-[Question 5](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day1-tasks/tasks.md)
+## [Question 5](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day1-tasks/tasks.md)
 
 ```jsx
     const complexCoercion = (input) => {
