@@ -7,7 +7,7 @@ API is about registering all of these unique URL combinations and then creating 
 - Route handler: A route handler is a function that executes when a certain route is triggered from an incoming request.
 - Express.js: is neat and highly adopted framework for Node.js that makes it trivial to build an API.
 
-**Lets create an API with Express**
+**Install Express**
 ```node.js
   npm i express --save
          //or
