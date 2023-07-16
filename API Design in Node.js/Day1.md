@@ -9,5 +9,7 @@ API is about registering all of these unique URL combinations and then creating 
 
 **Lets create an API with Express**
 ```node.js
-  npm i express --save or yarn add express
+  npm i express --save
+         //or
+  yarn add express
 ```
