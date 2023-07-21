@@ -131,7 +131,6 @@ function outer1() {
 outer1(); // Output: 10
 ```
 Reasoning for example 1's output: because x decalred by var which has a function scope ,so the output = 10, even if declared outside the blocked scope.
-.................................................................................
 
 Example 2:
 ```jsx
@@ -149,5 +148,4 @@ function outer2() {
 outer2(); // Output: 20
 ```
 Reasoning for example 2's output: function inner2 has its own x variable, which shadows the outer x variable. This leads to different outputs when the inner functions are executed.
-.................................................................................
 
