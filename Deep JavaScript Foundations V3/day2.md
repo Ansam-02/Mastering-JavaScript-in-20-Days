@@ -105,7 +105,7 @@ convertToObj(promisesArray).then((result) => {
 
 testScope1();
 ```
-the answer of the question is (`1, ReferenceError, ReferenceError`), a is declared with `var` which are function scope, meaning they are accessible throughout the whole function, while b and c are declared with let and const which are block-scoped, meaning they are only accessible within the block they are declared in.
+the answer of the question is (`1, ReferenceError, ReferenceError`), a is declared with `var` which are function scope, meaning they are accessible throughout the whole function, while b and c are declared with `let` and `const` which are block-scoped, meaning they are only accessible within the block they are declared in.
 
 [Question 2:](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day2-tasks/tasks.md)
 ```jsx
