@@ -1,14 +1,9 @@
 # Day 2: Static Type and Scope
-
-in this day i learned about the difference scopes in js `let`, `const` , `var`
-and dive deep into some examples.
-also the static type of js which means that JavaScript is a dynamically typed language,
+This file summarizes the JavaScript lesson on Static Type and Scope .These Consepts are important in programming, Statically-typed languages perform type checking at compiletime, while dynamically typed languages perform type checking at runtime. The scope is the current context of execution in which values and expressions are "visible" or can be referenced.
 Example:
 
 ```javascript
-n = true; // n is now a boolean
-n = "Hello"; // n is now a string
-let n = 99; // n is now a number
+
 ```
 
 ## Lesson Summary
