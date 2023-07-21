@@ -1,5 +1,5 @@
 # Day 2: Static Type and Scope
-This file summarizes the JavaScript lesson on Static Type and Scope .These Consepts are important in programming, Statically-typed languages perform type checking at compiletime, while dynamically typed languages perform type checking at runtime. The scope is the current context of execution in which values and expressions are "visible" or can be referenced.
+This file summarizes the JavaScript lesson on Static Type and Scope .These Consepts are important in programming, Statically-typed languages perform type checking at compiletime, while dynamically typed languages perform type checking at runtime. The scope is the current context of execution in which values and expressions are "visible" or can be referenced. 
 
 ## Lesson Summary
 
