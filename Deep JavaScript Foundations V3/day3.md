@@ -86,6 +86,31 @@ console.log(hofNormalFunc3("Meow")()); // logs "Meow Meow Meow!" once
 
 ```jsx
      
+// Example object
+const obj = {
+  name: 'John',
+  greet: function (greeting) {
+    console.log(`${greeting}, ${this.name}!`);
+  }
+};
+
+const preserveThis = (func) => {
+  // write your code here;
+  const preserveThis = (func) => {
+  return (...args) => {
+    return func.apply(func, args);
+  };
+};
+
+  return func;
+}
+
+// Wrap the greet function using preserveThis
+const preservedGreet = preserveThis(obj.greet);
+
+// Call the wrapped function as a method of the object
+preservedGreet('Hello'); // Output: "Hello, John!"
+
 ```
 ## [Question 3](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day3-tasks/tasks.md)
 
