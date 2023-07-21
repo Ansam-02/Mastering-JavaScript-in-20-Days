@@ -114,8 +114,40 @@ preservedGreet('Hello'); // Output: "Hello, John!"
 ```
 ## [Question 3](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day3-tasks/tasks.md)
 
+Consider the 2 following examples and distinguish the different output in each one with them with a reasoning.
+
+Example 1:
 ```jsx
-     
+function outer1() {
+  var x = 10;
+
+  var inner1 = function() {
+    console.log(x);
+  };
+
+  inner1();
+}
+
+outer1(); // Output: 10
 ```
-  
+Reasoning for example 1's output: because x decalred by var which has a function scope ,so the output = 10, even if declared outside the blocked scope.
+.................................................................................
+
+Example 2:
+```jsx
+function outer2() {
+  var x = 10;
+
+  var inner2 = function() {
+    var x = 20;
+    console.log(x);
+  };
+
+  inner2();
+}
+
+outer2(); // Output: 20
+```
+Reasoning for example 2's output: function inner2 has its own x variable, which shadows the outer x variable. This leads to different outputs when the inner functions are executed.
+.................................................................................
 
