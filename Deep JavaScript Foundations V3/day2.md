@@ -1,44 +1,18 @@
 # Day 2: Static Type and Scope
 This file summarizes the JavaScript lesson on Static Type and Scope .These Consepts are important in programming, Statically-typed languages perform type checking at compiletime, while dynamically typed languages perform type checking at runtime. The scope is the current context of execution in which values and expressions are "visible" or can be referenced.
-Example:
-
-```javascript
-
-```
 
 ## Lesson Summary
 
-- Strict mode is generated automatically in js and it make a special behavior.
-- Strict mode example:
-  ```javascript 
-  const fun = () => {
-    title = "Welcome"; // reference error
-    console.log(title);
-  };
-  ```
-- The code above reference an error deo to strict mode.
-- Undefined: means that it's declared but it's dose not have any value.
-- Declared: means that it's has never declared on the whole program.
+- In statically typed languages, variable types are explicitly defined and checked at compile-time rather than runtime.
+- Variables must be declared with a specific type, and their type cannot be changed during execution.
+- Static typing provides early detection of type-related errors, which can lead to more robust and secure code.
+- Scope refers to the visibility and accessibility of variables within a program.
+- Common scope types include global scope, function scope, and block scope (introduced with let and const).
+- Global scope: Variables declared outside of any function or block can be accessed from any part of the code.
+- Function scope: Variables declared inside a function can only be accessed within that function.
+- Block scope: Variables declared with let and const inside a block (e.g., within loops or if statements) can only be accessed within that block.
 
-## Coding Example
 
-```javascript
-  var teacher = "khaldoon"
-
-  function otherClass(){
-      vat teacher = "shadi"
-      console.log("Welcome")
-  }
-
-  function ask(){
-      var = question = "why?";
-      console.log(question)
-  }
-
-  otherClass()
-  ask()
-
-```
 ## Coding Exercies
 ### STATIC TYPING QUESTIONS:
 
