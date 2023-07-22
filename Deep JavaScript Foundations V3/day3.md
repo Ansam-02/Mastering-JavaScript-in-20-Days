@@ -1,19 +1,45 @@
 
-# Day1 : Introduction ,Types and Coercion
-This file summarizes the JavaScript lesson on `Types` and `Coercion`.These Consepts are important in programming. the types are what determine the amount of memory allocated to save a value.`Coercion` is the process of converting a value from one data type to another. 
+# Day1 : Scope and Function Expressions
+This file summarizes the JavaScript lesson on `scope of the function`.These Consepts are important in programming. When a variable is declared inside a function, it is only accessible within that function and cannot be used outside that function. 
 
 ## Lesson Summary:
-In this lesson, we explored the hard part of JavaScript. Here are the key points covered:
+In this lesson, we explored the scope of the function hard part of JavaScript. Here are the key points covered:
+* JavaScript has the following two distinct types of scope:
+    1.Function scope
+    2.Block scope
+* Function scope in JavaScript is created inside functions. When a function is declared.here is an examole:
+ ```jsx
+      var example = 5;
+ function test() {
+  var testVariable = 10;
+  console.log( example ); // Expect output: 5
+  console.log( testVariable ); // Expect output: 10
+ }
+ test();
+ console.log( testVariable ); // Expect reference error
+```
+* Function Scope Hoisting,it's declaration automatically gets hoisted to the top of the scope. Hoisting means that the interpreter moves the instantiation of an entity to the top of the scope it was declared in, here is an example
+  ```jsx
+   example = 5; // Assign value
+   console.log( example ); // Expect output: 5
+   var example; // Declare variable
 
-* Use the typeof operator to get the type of an object or variable in JavaScript.
-* Primitive types are immutable and don't have properties.
-* Non-primitive types can be used to call methods to perform certain operations.
-* JavaScript variables can be converted to a new variable and another data type.
-* Coercion With the Equality (==)/(===) Operators.
-* JavaScript using built-in functions such as Number(), String(), Boolean(), parseInt(), and parseFloat(). 
+  ```
+  * Block Scope, A new block scope in JavaScript is created with curly braces ({}). A pair of curly braces can be placed anywhere in the code to define a new scope block.
+    ```jsx
+    // Top level scope
+function scopeExample() {
+  // Scope block 1
+  for ( let i = 0; i < 10; i++ ){ /* Scope block 2 */ }
+  if ( true ) { /* Scope block 3 */ } else {  /* Scope block 4 */ }
+  // Braces without keywords create scope blocks
+  { /* Scope block 5 */ } 
+  // Scope block 1
+}
+// Top level scope
+    ```
 
-   
-## Coding Examples
+
 ```jsx
      //Example 1: Primitive Data
     typeof "John"              // Returns "string"
