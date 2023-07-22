@@ -25,7 +25,7 @@ In this lesson, we explored the scope of the function hard part of JavaScript. H
    var example; // Declare variable
 
   ```
-  * Block Scope, A new block scope in JavaScript is created with curly braces ({}). A pair of curly braces can be placed anywhere in the code to define a new scope block.
+* Block Scope, A new block scope in JavaScript is created with curly braces ({}). A pair of curly braces can be placed anywhere in the code to define a new scope block.
     ```jsx
     // Top level scope
 function scopeExample() {
