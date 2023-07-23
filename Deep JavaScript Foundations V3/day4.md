@@ -21,6 +21,9 @@ In this lesson, we explored the hard part of JavaScript, The Advanced Scope and 
 myFunction();
 ```
 * A closure is a function having access to the parent scope, even after the parent function has closed.
+* IIFE (Immediately Invokable Function Expression) is a important concept in JavaScript. it is a commonly used Design Pattern which is used to wrap set of variables and functions which cannot be accessed outside the enclosed scope.
+* Hoisting is JavaScript's default behavior of moving declarations to the top.
+* strict mode does not allow variables to be used if they are not declared.
 * 
    
 ## Coding Examples
