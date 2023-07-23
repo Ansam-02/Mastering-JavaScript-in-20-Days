@@ -43,7 +43,7 @@ Here's the modified code to fix the issue:
 }
 
 ```
-here is the result of the code: 
+here is the result of the code:   
 `"value of [i] is: 0"`  
 `"value of [i] is: 1"`  
 `"value of [i] is: 2"`  
