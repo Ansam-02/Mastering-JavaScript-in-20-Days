@@ -90,7 +90,35 @@ To fix this and achieve the desired output, we can use the `let` keyword instead
 ## [Question 1](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day4-tasks/tasks.md)
 
 ```jsx
-      
+      function privateCounter() {
+  let count = 0;
+
+  function increment() {
+    count++;
+  }
+
+  function getCount() {
+    return count;
+  }
+
+  return {
+    increment: increment,
+    getCount: getCount
+  };
+}
+
+// Example usage:
+
+const counter1 = privateCounter();
+const counter2 = privateCounter();
+
+counter1.increment();
+counter1.increment();
+console.log(counter1.getCount()); // Output: 2
+
+counter2.increment();
+console.log(counter2.getCount()); // Output: 1
+
 ```
 ## [Question 2](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day4-tasks/tasks.md)
 
