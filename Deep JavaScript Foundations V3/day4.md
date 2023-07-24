@@ -123,5 +123,33 @@ console.log(counter2.getCount()); // Output: 1
 ## [Question 2](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day4-tasks/tasks.md)
 
 ```jsx
-      
+      function generateFibonacci(count) {
+  let currentCount = 0;
+  let prev1 = 0;
+  let prev2 = 1;
+
+  function fibonacci() {
+    if (currentCount === 0) {
+      currentCount++;
+      return prev1;
+    } else if (currentCount === 1) {
+      currentCount++;
+      return prev2;
+    } else {
+      const nextFib = prev1 + prev2;
+      prev1 = prev2;
+      prev2 = nextFib;
+      currentCount++;
+
+      if (currentCount <= count) {
+        return nextFib;
+      } else {
+        return undefined;
+      }
+    }
+  }
+
+  return fibonacci;
+}
+
 ```
