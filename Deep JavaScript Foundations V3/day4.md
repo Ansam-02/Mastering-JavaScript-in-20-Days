@@ -53,8 +53,21 @@ here is the result of the code:
 ## [Question 2](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day4-tasks/tasks.md)
 
 ```jsx
-      
+     let array = []; // Move the array declaration outside of the loop
+
+ for (let i = 0; i < 5; i++) {
+   array.push(i);
+   console.log("Current array is: ", array);
+ }
+ 
 ```
+To fix this and achieve the desired output of a single array containing all the values from 0 to 4, we need to move the array declaration outside of the loop. This way, the array will not be reinitialized in each iteration, and all the values of i will be pushed into the same array.  
+`"Current array is: [0]"`  
+`"Current array is: [0, 1]"`  
+"Current array is: [0, 1, 2]"
+`"Current array is: [0, 1, 2, 3]"`  
+`"Current array is: [0, 1, 2, 3, 4]"`  
+`
 ## [Question 3](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day4-tasks/tasks.md)
 
 ```jsx
