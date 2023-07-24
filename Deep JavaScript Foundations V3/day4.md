@@ -72,8 +72,20 @@ here is the output:
 ## [Question 3](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day4-tasks/tasks.md)
 
 ```jsx
-      
+      let functions = [];
+
+for (let i = 0; i < 5; i++) { // Use let instead of var for i
+  functions.push(() => {
+    console.log("Current value of i is:", i);
+  });
+}
+
+functions.forEach((func) => func());
+
 ```
+To fix this and achieve the desired output, we can use the `let` keyword instead of var to declare the loop variable i. This way, each iteration will have its own separate lexical environment and a unique i value will be captured by each arrow function.
+
+
 ## CLOSURE:
 ## [Question 1](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day4-tasks/tasks.md)
 
